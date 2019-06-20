@@ -14,9 +14,11 @@ Laravel Bulma Authentication Preset
 
 ## Installation
 
-- `composer require-dev vikdiesel/laravel-bulma-auth-preset`
+- `composer require vikdiesel/laravel-bulma-auth-preset --dev`
 - `php artisan make:auth`
 - `php artisan preset bulma`
+- `npm install`
+- `npm run dev` or `npm run prod`
 
 ## Package info
 
