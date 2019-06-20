@@ -18,3 +18,9 @@ Laravel Bulma Authentication Preset
 - `php artisan make:auth`
 - `php artisan preset bulma`
 
+## Package info
+
+Bulma 0.7.5
+
+Tested with Laravel 5.8 (but should work well with everything above 5.5). In case of errors, just manually copy package's `resources` directory to your app's `resources` directory.
+
