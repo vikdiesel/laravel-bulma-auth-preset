@@ -1,0 +1,11 @@
+/* Uncomment if you'd like to use some Bulma's initial vars here (e.g. $white, $black-ter, etc.) */
+//@import "~bulma/sass/utilities/initial-variables";
+
+/* Default font */
+$family-sans-serif: "Nunito", sans-serif;
+
+/* Body background color */
+$body-background-color: #f8f8f8;
+
+/* Import Bulma */
+@import "~bulma/bulma";
