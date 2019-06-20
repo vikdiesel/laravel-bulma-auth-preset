@@ -2,7 +2,6 @@
   "name": "vikdiesel/laravel-bulma-auth-preset",
   "description": "Bulma Authentication Preset For Laravel",
   "keywords": ["laravel", "preset", "bulma"],
-  "type": "project",
   "license": "MIT",
   "autoload": {
     "psr-4": {
