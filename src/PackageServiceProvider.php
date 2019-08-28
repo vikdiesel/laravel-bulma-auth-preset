@@ -58,6 +58,8 @@ class PackageServiceProvider extends ServiceProvider{
 				if ($command->confirm('File [' . $filename . '] already exists. Overwrite?')) {
 					$filesystem->copy($res_file->getRealPath(), resource_path($filename));
 				}
+			} else {
+				$filesystem->copy($res_file->getRealPath(), resource_path($filename));
 			}
 		}
 	}
