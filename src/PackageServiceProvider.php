@@ -33,6 +33,8 @@ class PackageServiceProvider extends ServiceProvider{
 	protected function copyFiles($command, $subDirectory = '', $only = null) {
 		$filesystem = new Filesystem;
 
+		$filesystem->makeDirectory(resource_path($subDirectory), 0755, true, true);
+
 		$resFiles = $filesystem->files(__DIR__.'/../resources/' . $subDirectory);
 
 		foreach ( $resFiles as $res_file ) {

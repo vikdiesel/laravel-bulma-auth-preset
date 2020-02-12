@@ -1,7 +1,7 @@
 Laravel Bulma Authentication Preset
 ======
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg)
+![version](https://img.shields.io/badge/version-1.1.0-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ![Laravel Bulma Authentication Preset](https://justboil.me/images/laravel-bulma-auth.png)
 
