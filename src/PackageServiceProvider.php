@@ -25,17 +25,6 @@ class PackageServiceProvider extends ServiceProvider{
 			$this->copyFiles($command, 'views/layouts');
 			$this->copyFiles($command, 'sass', ['app.scss']);
 
-			$filesystem = new Filesystem;
-			$bootstrapJsPath = resource_path('js/bootstrap.js');
-
-			if ($filesystem->exists($bootstrapJsPath)) {
-				$bootstrapJsContents = $filesystem->get($bootstrapJsPath);
-				if (strpos($bootstrapJsContents, '@lbap-bs-ignore') === false) {
-					$bootstrapJsContents = str_replace("require('bootstrap');", "/* Disabled by laravel-bulma-auth-preset @lbap-bs-ignore */\n/* require('bootstrap'); */", $bootstrapJsContents);
-					$filesystem->put($bootstrapJsPath, $bootstrapJsContents);
-				}
-			}
-
 			$command->info('Bulma scaffolding installed successfully.');
 			$command->comment('Please run "npm install && npm run dev" to compile your fresh scaffolding.');
 		});

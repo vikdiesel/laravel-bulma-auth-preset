@@ -1,8 +1,20 @@
 {
   "name": "vikdiesel/laravel-bulma-auth-preset",
-  "description": "Bulma Authentication Preset For Laravel",
+  "description": "Bulma Authentication Preset For Laravel 6.x",
   "keywords": ["laravel", "preset", "bulma"],
   "license": "MIT",
+  "authors": [
+    {
+      "name": "Viktor Kuzhelnyi",
+      "email": "viktor@justboil.me",
+      "homepage": "https://justboil.me",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "laravel/framework": "^6.2"
+  },
   "autoload": {
     "psr-4": {
       "LaravelBulmaAuthPreset\\Package\\": "src/"
