@@ -22,6 +22,7 @@
                     <div class="control">
                         <input id="email" type="email" class="input @error('email') is-danger @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
                     </div>
+
                     @error('email')
                         <p class="help is-danger" role="alert">
                             {{ $message }}
@@ -31,14 +32,17 @@
 
                 <hr>
 
-                <div class="field is-form-action-buttons">
-                    <button type="submit" class="button is-primary">
-                        {{ __('Send Password Reset Link') }}
-                    </button>
-
-                    <a class="button is-text" href="{{ route('login') }}">
-                        {{ __('Back') }}
-                    </a>
+                <div class="field is-grouped">
+                    <div class="control">
+                        <button type="submit" class="button is-primary">
+                            {{ __('Send Password Reset Link') }}
+                        </button>
+                    </div>
+                    <div class="control">
+                        <a class="button is-text" href="{{ route('login') }}">
+                            {{ __('Back') }}
+                        </a>
+                    </div>
                 </div>
 
             </form>

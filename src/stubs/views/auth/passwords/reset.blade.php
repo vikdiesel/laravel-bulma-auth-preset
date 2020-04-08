@@ -17,6 +17,7 @@
                     <div class="control">
                         <input id="email" type="email" class="input @error('email') is-danger @enderror" name="email" value="{{ $email ?? old('email') }}" required autocomplete="email" autofocus>
                     </div>
+
                     @error('email')
                         <p class="help is-danger" role="alert">
                             {{ $message }}
@@ -29,8 +30,9 @@
                 <div class="field">
                     <label class="label" for="password">{{ __('Password') }}</label>
                     <div class="control">
-                        <input id="password" type="password" class="input @error('password') is-danger @enderror" name="password" required autocomplete="new-password" autofocus>
+                        <input id="password" type="password" class="input @error('password') is-danger @enderror" name="password" required autocomplete="new-password">
                     </div>
+
                     @error('password')
                         <p class="help is-danger" role="alert">
                             {{ $message }}
@@ -41,7 +43,7 @@
                 <div class="field">
                     <label class="label" for="password-confirm">{{ __('Confirm Password') }}</label>
                     <div class="control">
-                        <input id="password-confirm" type="password" class="input" name="password_confirmation" required autocomplete="new-password" autofocus>
+                        <input id="password-confirm" type="password" class="input" name="password_confirmation" required autocomplete="new-password">
                     </div>
                 </div>
 

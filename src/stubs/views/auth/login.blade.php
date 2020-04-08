@@ -25,7 +25,7 @@
                 <div class="field">
                     <label class="label" for="password">{{ __('Password') }}</label>
                     <div class="control">
-                        <input id="password" type="password" class="input @error('password') is-danger @enderror" name="password" required autocomplete="current-password" autofocus>
+                        <input id="password" type="password" class="input @error('password') is-danger @enderror" name="password" required autocomplete="current-password">
                     </div>
                     @error('password')
                         <p class="help is-danger" role="alert">
@@ -34,25 +34,30 @@
                     @enderror
                 </div>
 
-                <div class="control">
-                    <label tabindex="0" class="b-checkbox checkbox is-thin">
-                        <input type="checkbox" true-value="true" value="false" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-                        <span class="check is-black"></span>
-                        <span class="control-label">{{ __('Remember Me') }}</span>
-                    </label>
+                <div class="field">
+                    <div class="control">
+                        <label class="checkbox">
+                            <input type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+                            {{ __('Remember Me') }}
+                        </label>
+                    </div>
                 </div>
 
                 <hr>
 
-                <div class="field is-form-action-buttons">
-                    <button type="submit" class="button is-primary">
-                        {{ __('Login') }}
-                    </button>
+                <div class="field is-grouped">
+                    <div class="control">
+                        <button type="submit" class="button is-primary">
+                            {{ __('Login') }}
+                        </button>
+                    </div>
 
                     @if (Route::has('password.request'))
-                        <a class="button is-text" href="{{ route('password.request') }}">
-                            {{ __('Forgot Your Password?') }}
-                        </a>
+                        <div class="control">
+                            <a class="button is-text" href="{{ route('password.request') }}">
+                                {{ __('Forgot Your Password?') }}
+                            </a>
+                        </div>
                     @endif
                 </div>
             </form>
