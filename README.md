@@ -18,7 +18,7 @@ Bulma CSS Framework authentication scaffolding for Laravel 7.x
 
 ## Installation
 
-- `composer require vikdiesel/laravel-bulma-auth-preset --dev` (Package will be added to require-dev)
+- `composer require vikdiesel/laravel-bulma-auth-preset --dev` (package will be added to require-dev)
 - `composer require laravel/ui`
 - `php artisan ui:auth`
 - `php artisan ui:controllers`
