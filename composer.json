@@ -1,5 +1,5 @@
 {
-  "name": "laravel-bulma-auth-preset",
+  "name": "vikdiesel/laravel-bulma-auth-preset",
   "description": "Bulma Authentication Preset For Laravel",
   "keywords": ["laravel", "preset", "bulma"],
   "license": "MIT",
