@@ -28,7 +28,7 @@ Bulma CSS Framework authentication scaffolding for Laravel 7.x
 
 ## Package info
 
-Bulma 0.8.x
+Bulma 0.9
 
 Tested with Laravel 7.x. In case of errors, just manually merge package's `stubs` directory contents to your app's `resources` directory.
 
