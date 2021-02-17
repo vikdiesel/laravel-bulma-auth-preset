@@ -16,6 +16,15 @@ Bulma CSS Framework authentication scaffolding for Laravel 8.x (for Laravel 7.x 
 - Registration form
 - E-mail validation form
 
+## Table of Contents
+
+* [Installation](#installation)
+* [Browser Support](#browser-support)
+* [Reporting Issues](#reporting-issues)
+* [Licensing](#licensing)
+* [Package info](#package-info)
+* [Useful Links](#useful-links)
+
 ## Installation
 
 - `composer require vikdiesel/laravel-bulma-auth-preset --dev` (package will be added to require-dev)
@@ -54,4 +63,11 @@ The issue list is reserved exclusively for bug reports and feature requests. Tha
 * Bulma 0.9
 * Laravel-mix 6.x
 * Laravel 8.x
+
+## Useful Links
+
+- [JustBoil.me](https://justboil.me)
+- [Affiliate Program](https://justboil.me/info/affiliates)
+- [Bulma](https://bulma.io)
+- [Laravel](https://laravel.com)
 
