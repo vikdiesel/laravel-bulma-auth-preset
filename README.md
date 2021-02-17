@@ -1,9 +1,9 @@
 Laravel Bulma Authentication Preset
 ======
 
-[![Latest Stable Version](https://poser.pugx.org/vikdiesel/laravel-bulma-auth-preset/version?140)](https://packagist.org/packages/vikdiesel/laravel-bulma-auth-preset) [![Total Downloads](https://poser.pugx.org/vikdiesel/laravel-bulma-auth-preset/downloads)](https://packagist.org/packages/vikdiesel/laravel-bulma-auth-preset) [![License](https://poser.pugx.org/vikdiesel/laravel-bulma-auth-preset/license)](https://packagist.org/packages/vikdiesel/laravel-bulma-auth-preset)
+[![Latest Stable Version](https://poser.pugx.org/vikdiesel/laravel-bulma-auth-preset/version?140-1)](https://packagist.org/packages/vikdiesel/laravel-bulma-auth-preset) [![Total Downloads](https://poser.pugx.org/vikdiesel/laravel-bulma-auth-preset/downloads)](https://packagist.org/packages/vikdiesel/laravel-bulma-auth-preset) [![License](https://poser.pugx.org/vikdiesel/laravel-bulma-auth-preset/license)](https://packagist.org/packages/vikdiesel/laravel-bulma-auth-preset)
 
-![Laravel Bulma Authentication Preset](https://justboil.me/images/bulma-auth-preset/repository-preview-hi-res.png)
+![Laravel Bulma Authentication Preset](https://justboil.me/images/bulma-auth-preset/repository-preview-hi-res.png?140)
 
 Bulma CSS Framework authentication scaffolding for Laravel 8.x (for Laravel 7.x use 1.3 branch)
 
