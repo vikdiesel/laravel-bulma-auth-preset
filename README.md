@@ -1,4 +1,4 @@
-Laravel Bulma Authentication Preset
+Laravel 8.x Bulma Authentication Preset
 ======
 
 [![Latest Stable Version](https://poser.pugx.org/vikdiesel/laravel-bulma-auth-preset/version?140-1)](https://packagist.org/packages/vikdiesel/laravel-bulma-auth-preset) [![Total Downloads](https://poser.pugx.org/vikdiesel/laravel-bulma-auth-preset/downloads)](https://packagist.org/packages/vikdiesel/laravel-bulma-auth-preset) [![License](https://poser.pugx.org/vikdiesel/laravel-bulma-auth-preset/license)](https://packagist.org/packages/vikdiesel/laravel-bulma-auth-preset)
