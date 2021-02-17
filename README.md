@@ -1,13 +1,13 @@
 Laravel Bulma Authentication Preset
 ======
 
-[![Latest Stable Version](https://poser.pugx.org/vikdiesel/laravel-bulma-auth-preset/version)](https://packagist.org/packages/vikdiesel/laravel-bulma-auth-preset) [![Total Downloads](https://poser.pugx.org/vikdiesel/laravel-bulma-auth-preset/downloads)](https://packagist.org/packages/vikdiesel/laravel-bulma-auth-preset) [![License](https://poser.pugx.org/vikdiesel/laravel-bulma-auth-preset/license)](https://packagist.org/packages/vikdiesel/laravel-bulma-auth-preset)
+[![Latest Stable Version](https://poser.pugx.org/vikdiesel/laravel-bulma-auth-preset/version?140)](https://packagist.org/packages/vikdiesel/laravel-bulma-auth-preset) [![Total Downloads](https://poser.pugx.org/vikdiesel/laravel-bulma-auth-preset/downloads)](https://packagist.org/packages/vikdiesel/laravel-bulma-auth-preset) [![License](https://poser.pugx.org/vikdiesel/laravel-bulma-auth-preset/license)](https://packagist.org/packages/vikdiesel/laravel-bulma-auth-preset)
 
-![Laravel Bulma Authentication Preset](https://justboil.me/images/laravel-bulma-auth.png)
+![Laravel Bulma Authentication Preset](https://justboil.me/images/bulma-auth-preset/repository-preview-hi-res.png)
 
-Bulma CSS Framework authentication scaffolding for Laravel 7.x
+Bulma CSS Framework authentication scaffolding for Laravel 8.x (for Laravel 7.x use 1.3 branch)
 
-## Laravel 7.x Bulma authentication preset
+## Laravel 8.x Bulma authentication preset
 
 - Login form
 - Password confirm form
@@ -28,7 +28,7 @@ Bulma CSS Framework authentication scaffolding for Laravel 7.x
 
 ## Package info
 
-Bulma 0.9
-
-Tested with Laravel 7.x. In case of errors, just manually merge package's `stubs` directory contents to your app's `resources` directory.
+* Bulma 0.9
+* Laravel-mix 6.x
+* Laravel 8.x
 

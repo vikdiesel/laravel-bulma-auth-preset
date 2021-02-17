@@ -24,6 +24,8 @@ class BulmaPreset extends Preset
 	{
 		return [
 			'bulma' => '^0.9.0',
+			'sass-loader' => '^11.0.1',
+			'sass' => '^1.32.7',
        ] + Arr::except($packages, ['bootstrap']);
 	}
 }
